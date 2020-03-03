@@ -75,7 +75,7 @@ Ignite Core:
 * Added support for spring data update/delete operations
 * Added support logical recovery phase outside of PME
 * Added support best effort affinity for thin clients (partition awareness)
-* Added support node discovery through AWS ELB
+* Added support node discovery through AWS ALB
 * Added transaction label to transaction cache events (e.g. EVT_TX_STARTED, EVT_TX_COMMITTED)
 * Added transactions support to thin clients
 * Added 'limit' as a parameter for TextQuery constructor and builder
@@ -378,7 +378,6 @@ ML:
 * Replace all label/feature extractors on new vectorizers
 * Stacking for training and inference
 * Unify API for ensemble training algorithms.
-
 
 Dependency updates:
 * Added dependency spring-data-2.2
